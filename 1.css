@@ -1,0 +1,57 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+ .container {
+    width: 100%;
+    padding: 100%;
+    padding: 15px;
+ }
+ header {
+     width: 90%;
+     height: 600px;
+     background-image: url(../6/img/1.jpg);
+     background-size: cover;
+     background-position: top center;
+     
+     
+ }
+ section {
+     display: flex;
+     justify-content: space-between;
+ }
+ .menu {
+     width: 25%;
+     margin-top: 20px;
+ }
+ .menu ul{
+    border: 1px solid blue ;
+ }
+ .menu ul li {
+     list-style: none;
+     font-family: Arial;
+     border-bottom: 1px solid blue ;
+     padding: 5px;
+ }
+ .menu ul li a {
+     text-decoration: none;
+     color: blue;
+ }
+ .content {
+    width: 70%;
+    text-align: center;
+ }
+ .content h3 {
+     color: red;
+     padding: 10px;
+ }
+ .content hr {
+     width: 90%;
+     background-color: red;
+    height: 2px;
+ }
+ .content img {
+    width: 500px;
+    height: 400px;
+    padding: 10px;
+ }
